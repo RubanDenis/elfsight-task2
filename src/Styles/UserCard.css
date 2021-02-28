@@ -1,0 +1,40 @@
+.userCard {
+    margin: 1rem;
+    width: 250px;
+    height: 400px;
+    padding: .5rem 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 12px 32px 4px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.userCard:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.title {
+    color: white;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.title--epic {
+    background-color: #8c14fc;
+}
+
+.title--epic:hover {
+    box-shadow: 0 0 12px rgba(140, 20, 252, .8);;
+}
+
+.desc {
+    text-align: center;
+  }
